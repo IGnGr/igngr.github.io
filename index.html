@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fran Palacios</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://igngr.github.io/portfolio" class="link"
+          >Portfolio.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Fran</span></h1>
+        <h2 class="about__role">A Game Developer.</h2>
+        <p class="about__desc">
+          I completed my Bachelor's studies in Computer Science back in 2019. During those years, I was able to study abroad for some time thanks to the Erasmus program, where I enrolled in a game design class that really spiked my interest regarding game development. 
+          <br></br>
+          Here are some of the small projects I have worked on over time. Some of them are older than others.
+          From the most part I have worked using Unity (C#) altough lately I have tried to going lower level using Raylib/OpenGL (C++).
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://www.linkedin.com/in/franciscojos%C3%A9palacios/">
+            <span class="btn btn--outline">Linkedin</span>
+          </a>
+
+          <a
+            href="https://github.com/rjshkhr"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/rjshkhr"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          
+
+          <div class="project">
+            <h3>Donkey Kong clone</h3>
+            <p class="project__description">
+              A recreation of the level 2-1 from the popular arcade game "Donkey Kong" aiming to mimic its gameplay.
+
+              <br></br>
+              <iframe width="250" height="200" src="https://www.youtube.com/embed/qyqsKLPl5Fo?si=AFPMWekyJls-KBAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Raylib</li>
+            </ul>
+
+            <a
+              href="https://github.com/IGnGr/PAC2_Grafica"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github">Github</i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Asteroids clone</h3>
+            <p class="project__description">
+              A prototype of an updated version of the arcade game "Asteroids" trying to keep the gameplay as close as possible.
+              <br></br>
+            </p>
+            <iframe width="250" height="200" src="https://www.youtube.com/embed/UhMhcj_Lty4?si=AG0n1lXDGngpEbnh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Raylib</li>
+            </ul>
+
+            <a
+              href="https://github.com/IGnGr/PAC1_Grafica"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github">Github</i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Mario clone</h3>
+            <p class="project__description">
+              A recreation of the level 1-1 of Super Mario with some additional mechanics.
+              <br></br>
+            </p>
+            <iframe width="250" height="200" src="https://www.youtube.com/embed/MLYnfunWaFQ?si=PYOwtBjE91X7aL-V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+            </ul>
+
+            <a
+              href="https://github.com/IGnGr/MarioPrototype"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github">Github</i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Planet Attack</h3>
+            <p class="project__description">
+              A prototype of an updated version of the arcade game "Missile Command".
+              <br></br>
+            </p>
+            <iframe width="250" height="200" src="https://www.youtube.com/embed/_mumUIwUZL8?si=HzL26KWXzZ30xG1p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Raylib</li>
+            </ul>
+
+            <a
+              href="https://github.com/IGnGr/PlanetAttackPrototype"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github">Github</i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Fingershock</h3>
+              Prototype of an arcade mobile game in which the user has to keep their fingers on the screen avoiding harmful objects and destroying enemies.
+              <br>
+              <br>
+
+              Credits to Binyuan Lin(animations), Alejandro Kuratomi and Lynn Lennmor(game design).
+
+            </p>
+            
+            <div class="video">
+            <iframe width="250" height="200" src="https://www.youtube.com/embed/xlOei_RHPd4?si=Xr8kG-3o-wRclSsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          <hr>
+
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+            </ul>
+
+            <a
+            href="https://github.com/IGnGr/GameDesign"
+            aria-label="source code"
+            class="link link--icon"
+          >
+                        <i aria-hidden="true" class="fab fa-github">Github</i>
+
+          </a>
+          </div>
+          <div class="project">
+            <h3>Orxata!</h3>
+              Small gamejam project. A short narrative game about a Valencian girl teaching an English man about the wonders of orxata, a traditional drink made from a root.
+              <br></br>
+  
+            </p>
+            
+            <div class="video">
+              <iframe width="250" height="200" src="https://www.youtube.com/embed/Vj2WhyiQS8c?si=4zuOBfD7J8drQ7qE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+          <hr>
+  
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+            </ul>
+  
+            <a
+            href="https://v3.globalgamejam.org/2023/games/orxata-5"
+            aria-label="source code"
+            class="link link--icon"
+          >
+                        <i aria-hidden="true" class="fab fa-github">Github</i>
+  
+          </a>
+          </div>
+
+      </div>
+        
+      </section>
+      <!--
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects not game dev related</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 2</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      -->
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Unity</li>
+          <li class="skills__list-item btn btn--plain">C#</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">OpenGL</li>
+
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:frapama6@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rjshkhr/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Template By Raj Shekhar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
