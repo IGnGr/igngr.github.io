@@ -271,7 +271,7 @@ main {
 .about__desc,
 .about__contact {
   margin-top: 2.4em;
-  grid-gap: 2em;
+  grid-gap: 1em;
   margin-right: 0.8em;
 
 
