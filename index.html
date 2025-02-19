@@ -20,7 +20,7 @@
   <body class="light" id="top">
     <header class="header center">
       <h3>
-        <a href="https://igngr.github.io/portfolio" class="link"
+        <a href="https://igngr.github.io/" class="link"
           >Portfolio.</a
         >
       </h3>
@@ -56,12 +56,12 @@
       <!-- About -->
       <div class="about center">
         <h1>Hi, I am <span class="about__name">Fran</span></h1>
-        <h2 class="about__role">A Game Developer.</h2>
+        <h2 class="about__role">A Game Programmer.</h2>
         <p class="about__desc">
           I completed my Bachelor's studies in Computer Science back in 2019. During those years, I was able to study abroad for some time thanks to the Erasmus program, where I enrolled in a game design class that really spiked my interest regarding game development. 
           <br></br>
           Here are some of the small projects I have worked on over time. Some of them are older than others. 
-          From the most part I have worked using Unity (C#) altough lately I have tried to going lower level using Raylib/OpenGL (C++).
+          From the most part I have worked using Unity (C#) and C++ (Raylib/OpenGL).
         </p>
 
        
@@ -69,9 +69,42 @@
 
       <!-- Projects -->
       <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
+        <h2 class="section__title">GameDev projects</h2>
 
         <div class="projects__grid">
+
+
+          <div class="project">
+            <h3>OpenGL Renderer</h3>
+            <p class="project__description">
+              An OpenGL renderer which renders a small subset of GLTF files. 
+              <br></br>
+            </p>
+
+            <div class="image">
+              <iframe width="250" height="200" src="https://www.youtube.com/embed/x1a2VMQAQHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+            </div>
+            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">OpenGL</li>
+            </ul>
+
+            <a
+              href="https://github.com/IGnGr/OpenGLCourse"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github">Github</i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
           
 
           <div class="project">
@@ -247,99 +280,42 @@
       </div>
         
       </section>
-      <!--
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects not game dev related</h2>
+      
+      <section id="projects2" class="section projects">
+        <h2 class="section__title">Non-GameDev projects</h2>
 
         <div class="projects__grid">
           <div class="project">
-            <h3>Project 1</h3>
+            <h3>SyncNon-SteamGames</h3>
             <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
+              Fork of an existing python project designed to add non-steam games from a given folder into Steam.
+              
+              I improved some of the logic and implemented Gooey, a library that provides a GUI for the input data.
+              Also, everything is packaged now as a windows executable to make it easier for any user from the general public.
+              <br></br>
+
             </p>
+            <div class="image">
+              <img width="250" height="200" src="https://github.com/IGnGr/SyncNon-SteamGames/raw/main/images/GUI.png" title="Image"></img>     
+            </div>
             <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Python</li>
             </ul>
 
             <a
-              href="https://github.com"
+              href="https://github.com/IGnGr/SyncNon-SteamGames"
               aria-label="source code"
               class="link link--icon"
             >
-              <i aria-hidden="true" class="fab fa-github"></i>
+              <i aria-hidden="true" class="fab fa-github">Github</i>
             </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
+
+
+
           </div>
 
-          <div class="project">
-            <h3>Project 2</h3>
-            <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <h3>Project 3</h3>
-            <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
         </div>
       </section>
-      -->
 
       <!-- Skills -->
       <section class="section skills" id="skills">
@@ -349,33 +325,33 @@
           <li class="skills__list-item btn btn--plain">C#</li>
           <li class="skills__list-item btn btn--plain">C++</li>
           <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+
         </ul>
       </section>
 
       <!-- Contact -->
       <section class="section contact center" id="contact">
         <h2 class="section__title">Contact</h2>
+        <div class="about__contact center">
+
         <a href="mailto:frapama6@gmail.com">
           <span class="btn btn--outline">Email</span>
-
-          <div class="about__contact center">
+          
             <a
               href="https://github.com/IGnGr"
-              aria-label="github"
-              class="link link--icon"
+
             >
-              <i aria-hidden="true" class="fab fa-github"></i>
+              <span class="btn btn--outline">Github</i>
             </a>
   
             <a
               href="https://www.linkedin.com/in/franciscojos%C3%A9palacios/"
-              aria-label="linkedin"
-              class="link link--icon"
+
             >
-              <i aria-hidden="true" class="fab fa-linkedin"></i>
+              <span class="btn btn--outline">Linkedin</i>
             </a>
           </div>
-        </a>
 
         
       </section>
